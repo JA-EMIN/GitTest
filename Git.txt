@@ -1,0 +1,6 @@
+1. Git 설치
+2. Git 계정 생성 : git config --global user.email "ABCD@ABCD.com"
+		   git config --global user.name "ABCD"
+		   git config --global --list
+3. 작업폴더로 위치 -> git init
+4. git add "Git.txt"
