@@ -5,3 +5,6 @@
 3. 작업폴더로 위치 -> git init
 4. 파일 Add : git add "Git.txt"
 5. 파일 Commit(Version 생성) :  git commit -m "파일 생성" 
+* git add와 git commit은 왜 나누어 놓았을까? jpg와 같이 버전이 바뀔 필요가 없는 파일은 comment가 필요 없으므로 파일을 골라서 기록을 남기기 위해서
+* git add를 하였을 때는 staging erea
+* git commit을 하였을 때는 repository erea
