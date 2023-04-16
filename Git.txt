@@ -3,4 +3,5 @@
 		   git config --global user.name "ABCD"
 		   git config --global --list
 3. 작업폴더로 위치 -> git init
-4. git add "Git.txt"
+4. 파일 Add : git add "Git.txt"
+5. 파일 Commit(Version 생성) :  git commit -m "파일 생성" 
