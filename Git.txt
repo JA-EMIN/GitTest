@@ -8,12 +8,3 @@
 * git add와 git commit은 왜 나누어 놓았을까? jpg와 같이 버전이 바뀔 필요가 없는 파일은 comment가 필요 없으므로 파일을 골라서 기록을 남기기 위해서
 * git add : staging erea로 이동, commit할 파일을 골라놓았다
 * git commit을 하였을 때는 repository erea
-6. 파일이 많고, 선택하여 commit하고 싶을 때는 command 명령보다 개발환경에서 지원해주는 툴을 이용하는 것이 낫다.
-7. git log --all --oneline : commit history 한줄로
-8. git diff는 쓰레기라 쓸거면 git difftool
-*vim에서 이동커서 h j k l, exit : qa
-*git difftool commitid : 현재 파일과 해당 commit 비교
-*git difftool commitid commitid : 현재 파일과 해당 commit 비교
-*git config --global diff.tool vscode : VSCODE difftool 설정
-*git config --global difftool.vscode.cmd 'code --wait --diff $LOCAL $REMOTE'
-*근데 굳이 git difftool 보다 extension 설치
