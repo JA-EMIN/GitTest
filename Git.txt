@@ -23,3 +23,5 @@ prac)
 2. branch a에서 branch b 생성, b에서 couponB 파일 생성
 3. main에서 branch c 생성, c에서 couponC 파일 생성
 4. main branch에서 파일 수정.
+
+confilct를 내보자.
