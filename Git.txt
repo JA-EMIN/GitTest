@@ -11,6 +11,7 @@
 6. 파일이 많고, 선택하여 commit하고 싶을 때는 command 명령보다 개발환경에서 지원해주는 툴을 이용하는 것이 낫다.
 7. git log --all --oneline : commit history 한줄로
 8. git diff는 쓰레기라 쓸거면 git difftool
+
 *vim에서 이동커서 h j k l, exit : qa
 *git difftool commitid : 현재 파일과 해당 commit 비교
 *git difftool commitid commitid : 현재 파일과 해당 commit 비교
@@ -19,10 +20,13 @@
 *근데 굳이 git difftool 보다 extension 설치
 
 prac) 
-1. branch a 생성, a에서 couponA 파일 생성
-2. branch a에서 branch b 생성, b에서 couponB 파일 생성
-3. main에서 branch c 생성, c에서 couponC 파일 생성
-4. main branch에서 파일 수정.
+- branch a 생성, a에서 couponA 파일 생성
+- branch a에서 branch b 생성, b에서 couponB 파일 생성
+- main에서 branch c 생성, c에서 couponC 파일 생성
+- main branch에서 파일 수정.
 
-conflflflflflflflf
-conflflflflflflflfict
+9. git branch "name" : branch 생성
+10. git switch "name" : branch 이동
+11. git merge "name" : branch 합치기
+12. conflict 발생시 코드 수정 후 git add & git commit
+* ide환경에서 어떤 코드 선택할지 tool 제공
