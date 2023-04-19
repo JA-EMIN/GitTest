@@ -27,6 +27,19 @@ prac)
 
 9. git branch "name" : branch 생성
 10. git switch "name" : branch 이동
-11. git merge "name" : branch 합치기
+11. git merge "name" : 기준이되는 branch로 이동 후, branch 합치기
 12. conflict 발생시 코드 수정 후 git add & git commit
 * ide환경에서 어떤 코드 선택할지 tool 제공
+
+13. 3-way-merge : 각 branch에서 신규 commit이 발생한 경우, 기준 branch에서 한개의 노드를 더 만들어서 merge함.
+14. fast-forward merge : 기준(main) branch에 신규 commit이 없는 경우 가장 진도가 많이 나간 branch가 main이 됨.
+* git merge--no-ff "branch name" : fast-forward merge를 하기 싫을 때
+* git branch -d "branch name" : 완료된 브랜치 삭제
+* git branch -D "branch name" : merge 안한 브랜치 삭제.
+15. rebase & fast-forward merge : 신규 branch의 시작점이 이동 후 fast-forward merge를 함, 한줄기 이동으로 보이게 할 수 있음.
+								  3-way-merge는 git log출력 시 복잡해 보일 수 있어서 간단하고 짧은 브랜치들에 사용.
+								  기존 commit을 다른 곳에 이어 붙이는 행위이므로 conflict 발생 가능 성 높음
+* git switch "name" : 새로운 branch로 이동
+* git rebase main : 중심 branch명을 입력
+* git switch main : 중심 branch로 이동
+* git merge "name" : 새로운 branch입력하여 merge
