@@ -43,3 +43,20 @@ prac)
 * git rebase main : 중심 branch명을 입력
 * git switch main : 중심 branch로 이동
 * git merge "name" : 새로운 branch입력하여 merge
+16. squash & merge : main에서 log 출력 시, 잔챙이 branch에서 commit 내역이 다보이면 복잡하므로 squash merge사용.
+* git merge --squash "name" : 기존의 merge처럼 중심이 되는 branch로 이동 후, squash merge 실행.
+
+17. git restore : 최근 commit 상태의 파일 상태로 restore
+* git restore "file name" : 최근 commit 상태의 파일 상태로 복구
+* git restore --source "commit id(hash)" "file name" : 특정 시점의 파일로 복구.
+* git restore --staged "file name" : add 시켜 놓은 staging 취소.
+
+18. git revert : 과거를 삭제할 수는 없고, commit을 취소할 수는 있음.
+* git revert "commit id" : 해당 commit을 취소함.
+* git revert "commit id" 이후 취소 내역에 대한 commit을 하게됨.
+* git revert "commit id" "commit id" : 여러개 취소 가능
+* git revert HEAD : 최근 commit 취소 가능
+
+19. git reset : 과거로 모든걸 되돌리기
+* git reset --hard "commit id"
+* git reset --soft "commit id" : 리셋인데 변동사항 지우지 말고 스테이징 해놓기.
