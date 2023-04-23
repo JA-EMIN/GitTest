@@ -82,3 +82,7 @@ prac)
 23. 원격저장소에 branch 생성
 * local에서 git branch "branch name" 
 * git push "remote address" "new branch name"
+
+24. pull request
+* github에서 pull request를 create
+* merge 선택 base : main <- compare : "new branch name" pull request open
