@@ -66,3 +66,10 @@ prac)
 * git push -u "remote address" "local branch name" : 원격저장소에 backup
 * git remote add origin "remote address" : 긴 주소를 origin이라는 변수명에 저장
 * git push -u : -u 옵션을 사용하여 저장할 원격 저장소가 자동으로 저장되어있다고 보면됨. 향후 git push만 사용하여 원격에 backup
+* 원격저장소 최신내용이 로컬저장소에 있을 때만 git push 가능
+
+21. git clone : 원격저장소에서 복사
+* git clone "remote address" : 원격저장소의 git clone
+* setting -> collaborators에 등록
+* 협업자가 먼저 push를 한 경우 git pull을 먼저 해야함.
+* git pull "remote address" "local branch name"
