@@ -86,3 +86,4 @@ prac)
 24. pull request
 * github에서 pull request를 create
 * merge 선택 base : main <- compare : "new branch name" pull request open
+* resolve 발생시 수정 후 merge option 선택하여 merge.
