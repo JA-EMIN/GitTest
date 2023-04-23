@@ -81,3 +81,4 @@ prac)
 
 23. 원격저장소에 branch 생성
 * local에서 git branch "branch name" 
+* git push "remote address" "new branch name"
