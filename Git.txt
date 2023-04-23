@@ -60,3 +60,9 @@ prac)
 19. git reset : 과거로 모든걸 되돌리기
 * git reset --hard "commit id"
 * git reset --soft "commit id" : 리셋인데 변동사항 지우지 말고 스테이징 해놓기.
+
+20. git push : 원격저장소에 저장
+* github.com은 기본 branch name을 main으로 강요함. git branch -M main
+* git push -u "remote address" "local branch name" : 원격저장소에 backup
+* git remote add origin "remote address" : 긴 주소를 origin이라는 변수명에 저장
+* git push -u : -u 옵션을 사용하여 저장할 원격 저장소가 자동으로 저장되어있다고 보면됨. 향후 git push만 사용하여 원격에 backup
