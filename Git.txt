@@ -87,3 +87,11 @@ prac)
 * github에서 pull request를 create
 * merge 선택 base : main <- compare : "new branch name" pull request open
 * resolve 발생시 수정 후 merge option 선택하여 merge.
+
+25. git stash : 코드 임시 보관 저장소.
+* git stash : 코드를 임시 보관 저장소로 보냄
+* git stash list : 보관된 코드 목록 조회
+* git stash save "memo" : 메모를 적어서 stash 함. 
+* git stash pop : 가장 최근에 stash 된 것부터 불러옴.
+* git stash drop "번호" : 특정 stash 제거.
+* git stash clear : 전부다 삭제.
