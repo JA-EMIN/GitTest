@@ -95,3 +95,7 @@ prac)
 * git stash pop : 가장 최근에 stash 된 것부터 불러옴.
 * git stash drop "번호" : 특정 stash 제거.
 * git stash clear : 전부다 삭제.
+
+
+
+
